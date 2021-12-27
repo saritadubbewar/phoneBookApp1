@@ -25,6 +25,7 @@ public class ContactRestController {
 
 	@GetMapping("/viewAllContacts")
 	public List<ContactForm> viewAllContacts() {
+		System.out.println("JMETER test");
 		return mContactService.viewAllContacts();
 	}
 
